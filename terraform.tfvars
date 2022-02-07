@@ -1,6 +1,6 @@
-region = "us-east-1"
-access_key = "AKIAZZVH23I4ANUN7YSJ"
-secret_key = "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"
+region = "region "
+access_key = "access_key"
+secret_key = ""secret_key
 vpc_cidr = "192.168.0.0/16"
 vpc_name = "myvpc"
 igw_name = "myigw"
@@ -8,6 +8,6 @@ subnet_cidr = ["192.168.0.0/24" ,"192.168.1.0/24"]
 subnet_name = ["public_subnet1" , "public_subnet2"]
 availability_zones = ["us-east-1a","us-east-1b"]
 pub_rt_name = "public_rt"
-imagename = "ami-04505e74c0741db8d"
+imagename = "imagename"
 instance_type = "t2.micro"
 instance_name = "myinstance"
